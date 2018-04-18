@@ -9,7 +9,16 @@ fun main (args: Array<String>){
     var nombre: String = "Daniel"
     var apellido: String = "Aucatoma"
     var edad: Int = 21
-
     var casado = false
 
+    val edadActual = 21
+
+    when(casado){
+        true -> {
+            println("Está casado")
+        }
+        else -> {
+            println("No está casado")
+        }
+    }
 }
